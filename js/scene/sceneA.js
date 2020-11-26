@@ -23,7 +23,7 @@ class sceneA extends Phaser.Scene {
 
         this.ball.setVelocityX(-180);
         this.ball.setCollideWorldBounds(true);
-        this.ball.setScale(0.15)
+        this.ball.setScale(0.45)
         this.ball.setBounce(1.2);
         this.physics.add.collider(this.ball, this.izquierda, this.chocaPala, null, this);
         this.physics.add.collider(this.ball, this.derecha, this.chocaPala, null, this);
